@@ -1,4 +1,4 @@
-# FastTrack Dashboard — Take-Home Assignment
+# FastTrack Dashboard - Take-Home Assignment
 
 A modern executive dashboard built with **Next.js 16**, **React 19**, and **TypeScript**, featuring diagnostic section overviews and deep-dive insights with custom visualizations.
 
@@ -131,7 +131,7 @@ fasttrack-assignment/
 | `GET` | `/api/v1/sections/:sectionId/insights` | List insights for a section |
 | `GET` | `/api/v1/sections/:sectionId/insights/:insightId` | Get insight details (Screen B data) |
 
-### Example Response — Section Overview
+### Example Response - Section Overview
 
 ```json
 {
@@ -155,17 +155,17 @@ fasttrack-assignment/
 ## 🛠️ Tech Stack
 
 ### Frontend
-- **Next.js 16** — App Router, Server Components
-- **React 19** — Latest React with Server Actions
-- **TypeScript 5.7** — Type safety
-- **Tailwind CSS 4** — Utility-first styling
-- **shadcn/ui** — Accessible component primitives
-- **Lucide React** — Icons
+- **Next.js 16** - App Router, Server Components
+- **React 19** - Latest React with Server Actions
+- **TypeScript 5.7** - Type safety
+- **Tailwind CSS 4** - Utility-first styling
+- **shadcn/ui** - Accessible component primitives
+- **Lucide React** - Icons
 
 ### Backend
-- **Express 4** — REST API server
-- **TypeScript** — Type-safe backend
-- **tsx** — Fast TypeScript execution
+- **Express 4** - REST API server
+- **TypeScript** - Type-safe backend
+- **tsx** - Fast TypeScript execution
 
 ---
 
@@ -203,11 +203,11 @@ npm run start    # Run compiled JavaScript
 
 ## 🎨 Design Decisions
 
-1. **Custom SVG Charts** — Built lightweight chart components instead of heavy libraries for faster load times
-2. **Server Components** — Data fetching happens on the server for better performance and SEO
-3. **Centralized Status Styling** — `status-utils.ts` provides consistent color mappings across all components
-4. **Type Re-exports** — Single source of truth for types with re-exports for backwards compatibility
-5. **Skeleton Loaders** — Proper loading states that match the final layout to prevent layout shift
+1. **Custom SVG Charts** - Built lightweight chart components instead of heavy libraries for faster load times
+2. **Server Components** - Data fetching happens on the server for better performance and SEO
+3. **Centralized Status Styling** - `status-utils.ts` provides consistent color mappings across all components
+4. **Type Re-exports** - Single source of truth for types with re-exports for backwards compatibility
+5. **Skeleton Loaders** - Proper loading states that match the final layout to prevent layout shift
 
 ---
 
@@ -215,7 +215,7 @@ npm run start    # Run compiled JavaScript
 
 - The backend uses **in-memory mock data** (no database required)
 - API responses are **cached for 60 seconds** via Next.js ISR
-- All data flows through the API — no hardcoded values in components
+- All data flows through the API - no hardcoded values in components
 - Error boundaries provide graceful degradation when the API is unavailable
 - The sidebar collapses on mobile for better UX
 
