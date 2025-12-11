@@ -41,7 +41,7 @@ This project implements three connected screens for an executive-facing diagnost
 
 ```bash
 # Clone the repository
-git clone <repository-url>
+git clone https://github.com/MilanSpiridonov/fasttrack-assignment.git
 cd fasttrack-assignment
 
 # Install frontend dependencies
