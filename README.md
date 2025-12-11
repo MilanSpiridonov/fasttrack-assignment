@@ -56,9 +56,9 @@ npm install
 ### 2. Start the Backend
 
 ```bash
-# From the backend/api directory
-cd backend/api
-npm run dev
+# From the backend directory
+cd backend
+npx tsx api/src/server
 ```
 
 The API server will start at **http://localhost:4000**
